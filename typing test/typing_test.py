@@ -24,7 +24,7 @@ def display_text(stdscr, target, current, wpm=0):
 		stdscr.addstr(0, i, char, color)
 
 def load_text():
-	with open("D:/Codes/projects/typing test/text.txt", "r") as f:
+	with open("D:/Codes/projects/Mini-Projects/typing test/text.txt", "r") as f:
 		lines = f.readlines()
 		return random.choice(lines).strip()
 
