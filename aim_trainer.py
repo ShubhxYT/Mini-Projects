@@ -21,10 +21,9 @@ BG_COLOR = (0,25,40) #rgb values *green *red *blue
 LIVES = 3
 TOP_BAR_HEIGHT = 50
 
-TARGET_HIT_SOUND = "D:/Codes/Image recongn/sounds/tanmay.mp3"
-TARGET_HIT_SOUND = "D:/Codes/Image recongn/sounds/target_hit.mp3"
-MISCLICK_SOUND = "D:/Codes/Image recongn/sounds/misclick.mp3"
-FAIL_TARGET_SOUND = "D:/Codes/Image recongn/sounds/fail_target.mp3"
+TARGET_HIT_SOUND = "sounds/target_hit.mp3"
+MISCLICK_SOUND = "sounds/misclick.mp3"
+FAIL_TARGET_SOUND = "sounds/fail_target.mp3"
 
 LABEL_FONT = pygame.font.SysFont("comicsans",24)
 

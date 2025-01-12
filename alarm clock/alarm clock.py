@@ -10,7 +10,7 @@ def countdown(user_time):
        time.sleep(1)
        user_time -= 1
    print('Lift off!')
-   playsound("D:\Codes\projects\alarm clock\alarm.mp3")
+   playsound("alarm clock/alarm.mp3")
    time.sleep(5)
 
 CLEAR = "\33[2j" #clear the whole terminal
