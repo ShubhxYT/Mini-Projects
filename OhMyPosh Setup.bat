@@ -13,7 +13,7 @@ winget install JanDeDobbeleer.OhMyPosh DEVCOM.JetBrainsMonoNerdFont
 echo Installation Complete
 
 :: some of my favourite CLI (Terminals) Tools
-REM winget install aria2.aria2 sharkdp.bat eza-community.eza Fastfetch-cli.Fastfetch junegunn.fzf dundee.gdu gokcehan.if zyedidia.micro okibcn.nano nepnep.neofetch-win
+REM winget install aria2.aria2 sharkdp.bat eza-community.eza Fastfetch-cli.Fastfetch junegunn.fzf dundee.gdu gokcehan.if zyedidia.micro okibcn.nano nepnep.neofetch-win dbrgn.tealdeer
 :: remove the comment(REM) to install them
 
 echo Installing PSReadLine for History Prediction
