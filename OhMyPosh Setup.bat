@@ -12,6 +12,10 @@ echo Installing Oh-Py-Posh and JetBrains Nerd Font
 winget install JanDeDobbeleer.OhMyPosh DEVCOM.JetBrainsMonoNerdFont
 echo Installation Complete
 
+:: some of my favourite CLI (Terminals) Tools
+REM winget install aria2.aria2 sharkdp.bat eza-community.eza Fastfetch-cli.Fastfetch junegunn.fzf dundee.gdu gokcehan.if zyedidia.micro okibcn.nano nepnep.neofetch-win
+:: remove the comment(REM) to install them
+
 echo Installing PSReadLine for History Prediction
 powershell -Command "Install-Module -Name PSReadLine -Force -SkipPublisherCheck"
 powershell -Command "Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned"
